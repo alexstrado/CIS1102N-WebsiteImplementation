@@ -19,9 +19,10 @@ a:hover {
 
 
 .content {
+    width: 90%;
     max-width: 900px;
-    margin: 30px auto;
-    padding: 30px;
+    margin: 20px auto;
+    padding: 20px;
     background-color: #1e1e1e;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.7);
@@ -52,8 +53,8 @@ li {
 .data-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
-    color: #ffffff;
+    word-wrap: break-word;
+    table-layout: fixed;
 }
 
 .data-table th, .data-table td {
@@ -102,4 +103,10 @@ li {
 
 .portfolio-item:hover {
     background-color: #333333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
