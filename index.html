@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .panel {
+            background: #1c1c1c;
+            width: 400px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(255,255,255,0.1);
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .portfolio-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .portfolio-item {
+            background: #333333;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .portfolio-item:hover {
+            background: #555555;
+            color: #000000;
+            box-shadow: 0 4px 12px rgba(255,255,255,0.2);
+        }
+
+        .footer-name {
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            color: #aaa;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="panel">
+        <h1>PORTFOLIO SHOWCASE</h1>
+
+        <div class="portfolio-list">
+            <a class="portfolio-item" href="portfolio1.html">PORTFOLIO 1</a>
+            <a class="portfolio-item" href="portfolio2.html">PORTFOLIO 2</a>
+            <a class="portfolio-item" href="portfolio3.html">PORTFOLIO 3</a>
+            <a class="portfolio-item" href="portfolio4.html">PORTFOLIO 4</a>
+            <a class="portfolio-item" href="portfolio5.html">PORTFOLIO 5</a>
+            <a class="portfolio-item" href="portfolio6.html">PORTFOLIO 6</a>
+        </div>
+
+        <div class="footer-name">Maestrado, Alex John</div>
+    </div>
+</body>
+</html>

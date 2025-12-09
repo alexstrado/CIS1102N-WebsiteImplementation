@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #121212;
+            color: #ffffff;
+        }
+        .content {
+            max-width: 900px;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+        }
+        h1, h2 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+        .paragraph {
+            margin-bottom: 1em;
+            line-height: 1.6;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #1e90ff;
+            font-weight: bold;
+        }
+        .footer-text {
+            margin-top: 20px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 1em;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+        .references-section {
+            margin-top: 20px;
+        }
+        .references-section h4 {
+            margin-bottom: 5px;
+            color: #fff;
+        }
+        .references-content {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Comparative Study On Different Types of Motherboards</h1>
+        <p class="paragraph">You can think of a computer's motherboard as a complex printed circuit board (PCB) or in simpler terms its the computer's nervous system that connects all of the different components of a PC, such as the ram and cpu. The motherboard allows for different extensions and additions like storage, sys fans, cpu fans, and a graphics card. It is the most important part of a computer since in the first place without it you cant assemble a computer, its size also matters since different sizes allows for different physical components and such. These different sizes are referred to as “form factors” a form factor is a standard specification of a motherboard and its compatibility with different physical parts, psu, and the case.</p>
+        <p class="paragraph">The motherboard's size and different form factors were made out of the need of different uses and cases such as better heat management, more expandability, and ease of upgradeability. The major form factors are AT, ATX, BTX, Extended-ATX, LPX/NPX, Micro-ATX, Mini-ATX, Pico BTX, and Standard-ATX. Majority of consumer motherboards fit into either Standard-ATX, Micro-ATX, and Mini-ATX. LPX and NLX form factors are usually used for mass produced systems such as business desktops they are significantly thinner and are usually “low profile” or “slim” they are largely considered obsolete since they were replaced by both Micro-ATX and Mini-ATX’s such as the Intel Nuc which USC uses for their computer lab due to their smaller size and better thermals.
+</p>
+
+<table>
+    <tr>
+        <th>Form Factor</th>
+        <th>Build</th>
+        <th>CPU Slots</th>
+        <th>Memory Slots</th>
+        <th>Chipsets</th>
+        <th>BIOS</th>
+        <th>PCI Slots</th>
+        <th>SATA Ports</th>
+        <th>Builtin Features</th>
+    </tr>
+    <tr>
+        <td>AT Motherboard</td>
+        <td>~350mm x 305mm</td>
+        <td>1</td>
+        <td>2-4 SIMM</td>
+        <td>First Gen Intel CPU’s</td>
+        <td>Legacy BIOS</td>
+        <td>5-6 ISA</td>
+        <td>None</td>
+        <td>Minimal, Separate I/O cards</td>
+    </tr>
+    <tr>
+        <td>ATX Motherboard</td>
+        <td>~305mm x 244mm</td>
+        <td>1</td>
+        <td>4 DIMM</td>
+        <td>Modern CPU’s</td>
+        <td>UEFI</td>
+        <td>7 PCIe x16/x1</td>
+        <td>4-8</td>
+        <td>Integrated Audio, Gigabit LAN, Multiple USB’s, Video (some models)</td>
+    </tr>
+    <tr>
+        <td>BTX Motherboard</td>
+        <td>~325mm x 267mm</td>
+        <td>1</td>
+        <td>4 DIMM</td>
+        <td>Legacy Intel</td>
+        <td>Legacy BIOS/UEFI</td>
+        <td>7 PCIe</td>
+        <td>4</td>
+        <td>Integrated Audio, Gigabit LAN, Multiple USB’s, Video (some models)</td>
+    </tr>
+    <tr>
+        <td>Extended-ATX Motherboard</td>
+        <td>~330mm x 305mm</td>
+        <td>1-2</td>
+        <td>8 DIMM</td>
+        <td>HEDT</td>
+        <td>UEFI</td>
+        <td>7+ PCIe</td>
+        <td>8+</td>
+        <td>Dual LAN, Robust VRM, Multiple M.2, Better Connectivity</td>
+    </tr>
+    <tr>
+        <td>LPX Motherboard</td>
+        <td>~229mm x 279mm</td>
+        <td>1</td>
+        <td>2-4 SIMM / DIMM</td>
+        <td>Legacy</td>
+        <td>Legacy BIOS</td>
+        <td>2-3 on Riser</td>
+        <td>0-2</td>
+        <td>Integrated Audio/Video, Common in prebuilt OEMs</td>
+    </tr>
+    <tr>
+        <td>Micro-ATX Motherboard</td>
+        <td>~244mm x 244mm</td>
+        <td>1</td>
+        <td>2-4 DIMM</td>
+        <td>Modern CPU’s</td>
+        <td>UEFI</td>
+        <td>4 PCIe</td>
+        <td>4-6</td>
+        <td>Integrated Audio, Gigabit LAN, Multiple USB’s, Video (some models)</td>
+    </tr>
+    <tr>
+        <td>Mini ITX Motherboard</td>
+        <td>~170mm x 170mm</td>
+        <td>1</td>
+        <td>2 DIMM</td>
+        <td>Modern CPU’s</td>
+        <td>UEFI</td>
+        <td>1 PCIe x16</td>
+        <td>4</td>
+        <td>Integrated WiFi/Bluetooth, Audio, LAN, Video</td>
+    </tr>
+    <tr>
+        <td>Mini-ATX Motherboard</td>
+        <td>~150mm x 150mm</td>
+        <td>1</td>
+        <td>1-2 SODIM</td>
+        <td>Legacy/Soldered</td>
+        <td>Legacy BIOS</td>
+        <td>0-1 Mini PCI</td>
+        <td>1-2</td>
+        <td>Minimal, for specialized industrial systems</td>
+    </tr>
+    <tr>
+        <td>Pico BTX Motherboard</td>
+        <td>~293mm x 267mm</td>
+        <td>1</td>
+        <td>2 SODIM</td>
+        <td>Legacy Intel</td>
+        <td>Legacy BIOS</td>
+        <td>1 on Riser</td>
+        <td>2</td>
+        <td>Minimal, for compact systems</td>
+    </tr>
+    <tr>
+        <td>Standard-ATX Motherboard</td>
+        <td>~305mm x 244mm</td>
+        <td>1</td>
+        <td>4 DIMM</td>
+        <td>Modern CPU’s</td>
+        <td>UEFI</td>
+        <td>7 PCIe</td>
+        <td>4-8</td>
+        <td>Integrated Audio, Gigabit LAN, Multiple USB’s, Video (some models)</td>
+    </tr>
+</table>
+
+<br><br>
+
+        <div class="references-section">
+            <h4>References</h4>
+            <div class="references-content">
+               Intel Corporation. (2004). BTX system design guide (Version 1.0) [Report]. http://www.intel.com/technology/btx/spec.htm<br><br>
+                Intel Corporation. (1998). ATX specification (Version 2.1) [Report]. http://www.formfactors.org/developer/specs/atx2_1.pdf<br><br>
+               PC Design Guide. (1995). Desktop '95 design guide [Report]. http://www.formfactors.org
+<br><br>
+                VIA Technologies, Inc. (2001). Mini-ITX motherboard specification (Version 1.0) [Report]. http://www.via.com.tw/en/initiatives/spearhead/mini-itx/<br><br>
+            </div>
+        </div>
+
+
+        <a href="index.html">← Back to Portfolio Showcase</a>
+    </div>
+</body>
+</html>
+
